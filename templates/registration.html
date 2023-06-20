@@ -1,0 +1,58 @@
+{% extends 'dummy.html' %}
+
+    {% block title %}
+    <title>Registration Page</title>
+    {% endblock %}
+
+{% block body_block %}
+<center>
+    <h1>Registration Form</h1>
+</center>
+<form class="m-auto w-25 pt-3">
+    <div class="form-outline mb-4">
+        <input type="text" id="form3Example3"  class="form-control" placeholder="Enter Firstname"/>
+      </div>
+
+      <div class="form-outline mb-4">
+        <input type="text" id="form3Example3" class="form-control" placeholder="Enter Middlename"/>
+      </div>
+
+      <div class="form-outline mb-4">
+        <input type="text" id="form3Example3" class="form-control" placeholder="Enter Lastname"/>
+      </div>
+  
+    <!-- Email input -->
+    <div class="form-outline mb-4">
+      <input type="email" id="form3Example3" class="form-control" placeholder="Enter Email-id"/>
+    </div>
+  
+    <!-- Password input -->
+    <div class="form-outline mb-4">
+      <input type="password" id="form3Example4" class="form-control" placeholder="Enter Password"/>
+    </div>
+
+    <div class="form-outline mb-4">
+      <input type="password" id="form3Example4" class="form-control" placeholder="Confirm Password"/>
+    </div>
+
+
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Sign up</button>
+  
+    <!-- Register buttons -->
+    <div class="text-center">
+      <p>or sign up with</p>
+      <button type="button" class="btn purple-gradient">
+        <i class="fab fa-facebook-f"></i>
+      </button>
+  
+      <button type="button" class="btn blue-gradient">
+        <i class="fab fa-google"></i>
+      </button>
+  
+      <button type="button" class="btn purple-gradient">
+        <i class="fab fa-twitter"></i>
+      </button>
+    </div>
+  </form>
+{% endblock %}
